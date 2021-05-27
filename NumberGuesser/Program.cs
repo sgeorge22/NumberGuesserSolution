@@ -8,9 +8,9 @@ namespace NumberGuesser
         static void Main(string[] args)
         {
             Random r = new Random();
-            int winNum = r.Next(0, 100);
+            int winNum = r.Next(1, 100);
             bool win = false;
-            do //do is a code snippet for the while() loop
+            do//do is a code snippet for the while() loop
             {
                 Console.WriteLine("Guess a number in between 0 and 100.");
                 string s = Console.ReadLine();
