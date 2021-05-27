@@ -12,7 +12,7 @@ namespace NumberGuesser
             bool win = false;
             do
             {
-                Console.WriteLine("Guess a number in between 0 and 100.");
+                Console.Write("Guess a number in between 0 and 100.");
                 string s = Console.ReadLine();
 
                 int i = int.Parse(s);
