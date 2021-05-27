@@ -10,9 +10,9 @@ namespace NumberGuesser
             Random r = new Random();
             int winNum = r.Next(0, 100);
             bool win = false;
-            do
+            do //do is a code snippet for the while() loop
             {
-                Console.Write("Guess a number in between 0 and 100.");
+                Console.WriteLine("Guess a number in between 0 and 100.");
                 string s = Console.ReadLine();
 
                 int i = int.Parse(s);
@@ -31,7 +31,7 @@ namespace NumberGuesser
                     win = true;
                 }
             }
-            while (win == false);
+            while(win == false);
 
 
         }
